@@ -1,0 +1,13 @@
+========================================
+Date: 2026-04-09 06:11:26
+Username: 1
+Password: 1
+Full Name: 1
+Gender: male
+Date of Birth: 2026-04-07
+Phone: 010-1111-1111
+Nationality: nepal
+Address: 111
+Job Type: kitchen
+========================================
+

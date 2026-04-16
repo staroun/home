@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <form action="submit.php" method="GET">
+    Volumn: <input type="range" name="volume" min="0" max="100" value="50"> <br><br>
+    <input type="hidden" name="userid" value="12345">
+    Username: <input type="text" name="username"> <br><br>
+    Password: <input type="password" name="password"> <br><br>
+    age: <input type="number" name="age"> <br><br>
+    birthday: <input type="date" name="birthday" min="1920-01-01" max="2024-09-12" required> <br><br>
+    hobby: <input type="checkbox" name="hobby" value=“t"> Tennis
+    <input type="checkbox" name="hobby" value="m"> Music
+    <input type="checkbox" name="hobby" value=“c“ checked> Codding <br><br>
+
+    Comment:
+    <textarea name="comment" rows="4" cols="40" placeholder="Enter your comment here..."></textarea><br><br>
+
+    gender: <input type="radio" name="gender" value="m" checked> Male
+    <input type="radio" name="gender" value="f"> Female <br> <br><br>
+
+
+   <input type="submit" >
+   <input type="button" value="Ok" onclick="alert('Button clicked!')">
+   <input type="reset" value="Reset"> <br><br>
+
+    Choose a file:
+    <input type="file" name="uploadedFile"><br><br>
+    <input type="submit" value="Upload File"><br><br><br><br>
+
+    My favorite fruit:
+    <select name="fruits">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="orange">Orange</option>
+        <option value="mango">Mango</option>
+        <option value="grape">grape</option>
+    </select>
+
+
+  </form>
+</body>
+</html>
